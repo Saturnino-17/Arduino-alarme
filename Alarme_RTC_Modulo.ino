@@ -1,4 +1,7 @@
-
+/* Projeto desenvolvido por:
+                             João Arthur Oliveira Barbosa
+                             João Victor da Silva Saturnino
+*/
 #include <stdio.h>
 #include <DS1302.h>
 
