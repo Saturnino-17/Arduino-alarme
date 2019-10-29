@@ -70,7 +70,7 @@ void setup() {
   rtc.writeProtect(false);
   rtc.halt(false);
 
-  // Define a data e hora atuais
+  // Define a data e a hora atuais
  
   Time t(2018, 1, 8, 15, 34, 50, Time::kMonday);
 
