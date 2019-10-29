@@ -161,7 +161,7 @@ void loop() {
     Serial.println("INTERVALO JANTAR!");
   }
 
-   // HORÁRIOS: NOTURNO
+   // HORÁRIOS DO TURNO NOTURNO
 
    if(t.hr == 18 && t.min == 50 && t.sec == 00){
      alarmePrincipal();
