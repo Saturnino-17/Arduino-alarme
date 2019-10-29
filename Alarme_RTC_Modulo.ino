@@ -83,7 +83,7 @@ void loop() {
   delay(1000);
   Time t = rtc.time();
 
-  // HORÁRIOS: MATUTINO
+  // HORÁRIOS DO TURNO MATUTINO
   
   if(t.hr == 7 && t.min == 00 && t.sec == 00){
     alarmePrincipal();
