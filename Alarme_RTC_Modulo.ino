@@ -122,7 +122,7 @@ void loop() {
     Serial.println("INTERVALO ALMOÇO!");
   }
 
-  // HORÁRIOS: VESPERTINO
+  // HORÁRIOS DO TURNO VESPERTINO
 
   if(t.hr == 13 && t.min == 00 && t.sec == 00){
     alarmePrincipal();
