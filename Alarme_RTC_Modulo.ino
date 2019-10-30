@@ -34,7 +34,7 @@ void printTime() {
   
   Time t = rtc.time();
 
-  //Nomeia o dia da semana
+  //Nomeia o dia da semana.
   const String day = dayAsString(t.day);
 
   char buf[50];
